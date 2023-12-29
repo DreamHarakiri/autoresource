@@ -1,0 +1,528 @@
+body {
+  background-color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerContact {
+  margin: auto;
+  margin-block-start: 14px;
+  max-height: 50px;
+  height: 100%;
+  padding: 0 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactInfo {
+  display: flex;
+  font-size: 14px;
+  gap: 8px;
+  position: relative;
+  width: 270px;
+}
+
+.contactInfo::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: #33333343;
+  width: 1px;
+  height: 100%;
+  right: 0;
+}
+
+.icoInfo {
+  width: 20px;
+  height: 20px;
+}
+
+.addressHeader p {
+  color: #333333;
+}
+
+.addressHeader address {
+  font-style: normal;
+  margin-block-start: 4px;
+}
+
+.jobTime {
+  display: flex;
+  margin-inline-start: 19px;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.jobTime p:first-child {
+  color: #333333;
+}
+
+.leftPartHeader,
+.rightPartHeader {
+  display: flex;
+  height: 100%;
+}
+
+.icoTime {
+  width: 20px;
+  height: 20px;
+}
+
+.jobTime p:last-child {
+  margin-block-start: 4px;
+}
+
+.rightPartHeader {
+  height: 100%;
+  max-height: 50px;
+  align-items: center;
+}
+
+.rightPartHeader p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.rightPartHeader a {
+  text-decoration: none;
+}
+
+.rightPartHeader svg {
+  margin-inline-start: 8px;
+}
+
+/* Навбар */
+
+.NavSection {
+  width: 100%;
+  height: 77px;
+  box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.03);
+  margin-block-start: 15px;
+
+  display: flex;
+  align-items: center;
+  padding: 0 154px;
+}
+
+.logoNav {
+  color: #4762ff;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  border-top: #4762ff 3px solid;
+  border-bottom: #4762ff 3px solid;
+
+  cursor: default;
+}
+
+.NavSection nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navList li {
+  display: inline-block;
+  color: #333333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navList li:not(:first-child) {
+  margin-inline-start: 46px;
+}
+
+.btnContact__Nav {
+  width: 179px;
+  height: 40px;
+  border-radius: 5px;
+  background: #4762ff;
+  border: none;
+  cursor: pointer;
+
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/**/
+
+/* main */
+
+/*banner section*/
+
+.bannerSection {
+  padding-left: 165px;
+  height: 712px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contextPart {
+  width: 540px;
+}
+
+.imageHeader {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.contextPart h1 {
+  color: #333;
+
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px; /* 126.667% */
+}
+
+.contextPart p {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-block-start: 16px;
+}
+
+.contextPart button {
+  padding: 11px 37px;
+  margin: auto;
+  text-align: center;
+  border-radius: 8px;
+  background: #4762ff;
+  border: none;
+
+  color: #fff;
+
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+
+  cursor: pointer;
+  margin-block-start: 43px;
+}
+
+/* service section */
+
+.servicesSection {
+  margin-block: 29px 58px;
+  padding: 0 127px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicesSection h2 {
+  color: #333;
+
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.servicesSection p {
+  margin-block-start: 18px;
+  width: 540px;
+
+  color: rgba(51, 51, 51, 0.8);
+
+  text-align: center;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.template {
+  width: 505px;
+  height: 287px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #f4f6fa;
+  text-align: left;
+  position: relative;
+}
+
+.template h3 {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-block-start: 25px;
+  margin-inline-start: 28px;
+  width: 366px;
+}
+
+.template p {
+  text-align: left;
+  margin-inline-start: 28px;
+  width: 300px;
+}
+
+.imageTemplate {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: multiply;
+}
+
+.serviceTemplate {
+  display: grid;
+  max-width: 1060px;
+  height: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 505px));
+  grid-template-rows: repeat(auto-fill, minmax(200px, 287px));
+  gap: 35px;
+
+  margin-block-start: 50px;
+}
+
+/* who is me section*/
+
+.WhoIsMe__section {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-start: 150px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.leftPart__WhoIsMe {
+  width: 576px;
+}
+
+.leftPart__WhoIsMe h4 {
+  color: #333;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.leftPart__WhoIsMe p {
+  color: rgba(51, 51, 51, 0.8);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-block-start: 16px;
+}
+
+.rightPart__WhoIsMe {
+  display: grid;
+  grid-template-columns: 129px 129px 129px;
+  grid-template-rows: 129px 129px 129px;
+  grid-template-areas:
+    "header . header2"
+    ". content ."
+    "footer . footer2";
+  gap: 32px;
+}
+
+.logo__nissan {
+  grid-area: header2;
+}
+.logo__bwm {
+  grid-area: header;
+}
+
+.logo__mers {
+  grid-area: content;
+}
+
+.logo__vw {
+  grid-area: footer2;
+}
+.logo__toyota {
+  grid-area: footer;
+}
+
+.rightPart__WhoIsMe img {
+  width: 129px;
+}
+
+/* map section */
+.mapSection {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  margin-block-start: 66px;
+}
+.container__mapSection {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 20px;
+}
+
+.context__mapSection {
+  max-width: 540px;
+}
+
+.context__mapSection h5 {
+  font-size: 48px;
+}
+
+.context__mapSection p {
+  font-size: 18px;
+  margin-block-start: 40px;
+}
+
+.mapObject {
+  width: 720px;
+  height: 549px;
+  border: none;
+  outline: none;
+}
+
+/**/
+/* Gallery */
+
+.gallerySection {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-block-end: 10vw;
+}
+
+.gallerySection h6 {
+  font-size: 48px;
+  margin-block: 56px;
+}
+
+.imageGallery {
+  width: 1100px;
+  height: 558px;
+  background-image: url(../../images/gallery/photo_1_2023-12-29_13-19-39.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+
+  position: relative;
+}
+
+.blockCyrcle__gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  margin-block-start: 23px;
+}
+
+.cyrcleGallery {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4762ff;
+  cursor: pointer;
+}
+
+.activeCyrcle__gallery {
+  transition: 0.3s;
+  width: 21px;
+  border-radius: 10px;
+}
+
+.leftPart__Gallery {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 50px;
+  color: transparent;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.leftPart__Gallery:hover {
+  transition: 0.3s;
+  background-color: #33333374;
+  color: white;
+}
+
+.rightPart__Gallery {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 50px;
+  color: transparent;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.rightPart__Gallery:hover {
+  transition: 0.3s;
+  background-color: #33333374;
+  color: white;
+}
+
+/**/
+/* contact form */
+
+footer {
+  height: 391px;
+  background-color: #1a1a1a;
+  padding: 0 150px;
+}
+
+.logoFooter {
+  color: #4762ff;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  border-top: #4762ff 3px solid;
+  border-bottom: #4762ff 3px solid;
+
+  cursor: default;
+  max-width: 182px;
+  width: 100%;
+  height: 35px;
+}
+
+.container__footer {
+  padding-block-start: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/**/
