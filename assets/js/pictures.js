@@ -1,23 +1,23 @@
 export const initialPictures = [
   {
-    url: "../../images/gallery/1",
+    url: "../../gallery/1.jpg",
   },
   {
-    url: "../../images/gallery/2",
+    url: "../../gallery/2.jpg",
   },
   {
-    url: "../../images/gallery/3",
+    url: "../../gallery/3.jpg",
   },
   {
-    url: "../../images/gallery/4",
+    url: "../../gallery/4.jpg",
   },
   {
-    url: "../../images/gallery/5",
+    url: "../../gallery/5.jpg",
   },
   {
-    url: "../../images/gallery/6",
+    url: "../../gallery/6.jpg",
   },
   {
-    url: "../../images/gallery/7",
+    url: "../../gallery/7.jpg",
   },
 ];

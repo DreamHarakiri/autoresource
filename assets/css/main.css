@@ -439,7 +439,7 @@ a {
 .imageGallery {
   max-width: 1200px;
   height: 558px;
-  background-image: url(../../images/gallery/photo_1_2023-12-29_13-19-39.jpg);
+  background-image: url(../../gallery/1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
