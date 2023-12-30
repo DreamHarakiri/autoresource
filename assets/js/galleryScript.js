@@ -49,7 +49,7 @@ function nextImage() {
 
 function prevImage() {
   setImage--;
-  if (setImage > 0) {
+  if (setImage >= 0) {
     imageBox.style.backgroundImage =
       "url(" + initialPictures[setImage].url + ")";
 
