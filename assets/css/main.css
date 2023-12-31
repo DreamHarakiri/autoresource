@@ -18,6 +18,10 @@ a {
   justify-content: space-between;
 }
 
+.bi-list {
+  display: none;
+}
+
 .contactInfo {
   display: flex;
   font-size: 14px;
@@ -398,7 +402,6 @@ a {
 
 .context__mapSection h5 {
   font-size: 48px;
-  width: 500px;
 }
 
 .context__mapSection p {
@@ -602,6 +605,15 @@ footer {
     padding-inline: 20px;
   }
 
+  .context__mapSection {
+    max-width: 50%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
   .mapObjectDiv {
     max-width: 100%;
     padding-inline-start: 0;
@@ -680,6 +692,7 @@ footer {
 
   footer {
     padding: 0 20px;
+    max-width: 100%;
   }
 
   .contextPart h1 {
@@ -725,5 +738,185 @@ footer {
   .serviceTemplate {
     grid-template-columns: repeat(auto-fill, minmax(200px, 600px));
     max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .imageHeader {
+    display: none;
+  }
+
+  .contextPart h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .contextPart button {
+    padding: 11px 37px;
+
+    border-radius: 8px;
+    background: #4762ff;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    margin-block-start: 43px;
+  }
+
+  .servicesSection h2 {
+    font-size: 24px;
+  }
+
+  .template h3 {
+    font-size: 14px;
+    max-width: 80%;
+  }
+
+  .servicesSection p {
+    margin-block-start: 18px;
+    max-width: 100%;
+    width: 80%;
+    color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .servicesSection {
+    margin-block: 29px 58px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .serviceTemplate {
+    grid-template-columns: repeat(auto-fill, minmax(200px, max-width));
+    max-width: 100%;
+  }
+
+  .template p {
+    text-align: left;
+    max-width: 50%;
+  }
+
+  .imageTemplate {
+    max-width: 60%;
+  }
+
+  .WhoIsMe__section {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 150px;
+    padding: 0 0px;
+  }
+
+  .leftPart__WhoIsMe {
+    max-width: 100%;
+    padding: 0;
+    padding-inline: 20px;
+  }
+
+  .leftPart__WhoIsMe h4 {
+    font-size: 24px;
+  }
+
+  .rightPart__WhoIsMe {
+    padding-inline: 20px;
+    display: grid;
+    grid-template-columns: minmax(20px, 129px);
+    grid-template-rows: minmax(20px, 129px);
+    gap: 20px;
+  }
+  .rightPart__WhoIsMe img {
+    max-width: 129px;
+  }
+
+  .gallerySection {
+    padding: 0 10px;
+  }
+
+  .gallerySection h6 {
+    font-size: 32px;
+    margin-block: 56px;
+  }
+
+  .container__mapSection {
+    align-items: baseline;
+    max-width: 100%;
+  }
+
+  .context__mapSection p {
+    font-size: 16px;
+    margin-block-start: 40px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .context__mapSection {
+    max-width: 100%;
+  }
+
+  .navList,
+  .btnContact__Nav {
+    display: none;
+  }
+
+  .logoFooter {
+    font-size: 12px;
+    max-width: max-content;
+    width: 100%;
+    height: 25px;
+  }
+
+  .footer__contacts li:first-child,
+  .footer__navigation li:first-child {
+    font-size: 16px;
+    margin-block-end: 13px;
+  }
+
+  .footer__contacts li:not(:first-child),
+  .footer__navigation li:not(:first-child) {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-block-start: 4px;
+  }
+
+  .container__footer {
+    padding-block-start: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+  }
+
+  .jobTime {
+    display: none;
+  }
+
+  .headerContact {
+    display: none;
+  }
+
+  .contactInfo::after {
+    display: none;
+  }
+
+  .bi-list {
+    display: block;
+    font-size: 28px;
+    color: #4762ff;
+  }
+
+  .activeMenu {
+    position: fixed;
   }
 }
