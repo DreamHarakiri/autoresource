@@ -33,7 +33,7 @@ btnMap.addEventListener("click", function () {
 
 menuCurrent.forEach((i) => {
   i.addEventListener("click", function () {
-    menuButton.classList.toggle("hidden");
+    menuButton.classList.toggle("show");
     menuNavigation.classList.remove("activeMenu");
     menuButton.classList.add("bi-list");
     menuButton.classList.remove("bi-x");
