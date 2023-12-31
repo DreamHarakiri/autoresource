@@ -121,7 +121,7 @@ a {
 
   font-size: 24px;
   font-weight: bold;
-
+  height: max-content;
   border-top: #4762ff 3px solid;
   border-bottom: #4762ff 3px solid;
 
@@ -918,5 +918,15 @@ footer {
 
   .activeMenu {
     position: fixed;
+    z-index: 999;
+    height: 100vh;
+    top: 0;
+    background-color: white;
+    align-items: baseline;
+    transition: 0.3s;
+  }
+  .activeMenu nav {
+    align-items: baseline;
+    padding-block-start: 17px;
   }
 }
