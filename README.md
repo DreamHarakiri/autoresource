@@ -6,5 +6,5 @@
   <li>JS</li>
 </ul>
 
-<h3>Prewiew</h3>
+<h3>Preview</h3>
 <a style="text-decoration: none;" href='https://dreamharakiri.github.io/autoresurce/'>Переход на GitHub IO</a>
