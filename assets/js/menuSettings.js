@@ -8,9 +8,13 @@ function useMenu() {
   if (menuButton.classList.toggle("show")) {
     //inactive
     menuNavigation.classList.add("activeMenu");
+    menuButton.classList.remove("bi-list");
+    menuButton.classList.add("bi-x");
   } else {
     //active
     menuNavigation.classList.remove("activeMenu");
+    menuButton.classList.add("bi-list");
+    menuButton.classList.remove("bi-x");
   }
 }
 
@@ -31,5 +35,7 @@ menuCurrent.forEach((i) => {
   i.addEventListener("click", function () {
     menuButton.classList.toggle("hidden");
     menuNavigation.classList.remove("activeMenu");
+    menuButton.classList.add("bi-list");
+    menuButton.classList.remove("bi-x");
   });
 });
