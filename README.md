@@ -6,5 +6,10 @@
   <li>JS</li>
 </ul>
 
+<h3>Supports:</h3>
+<ul>
+  <li><a href="https://vk.com/kipper_studio">Рендер машин: KiPPER STUDIO</a></li>
+</ul>
+
 <h3>Preview</h3>
 <a style="text-decoration: none;" href='https://dreamharakiri.github.io/autoresurce/'>Переход на GitHub IO</a>
