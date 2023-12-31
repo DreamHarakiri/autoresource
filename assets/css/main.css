@@ -924,6 +924,7 @@ footer {
     background-color: white;
     align-items: baseline;
     transition: 0.3s;
+    margin-block-start: 0px;
   }
   .activeMenu nav {
     align-items: baseline;
