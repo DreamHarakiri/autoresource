@@ -515,9 +515,7 @@ a {
 /* contact form */
 
 footer {
-  height: 391px;
   background-color: #1a1a1a;
-  padding: 0 150px;
 }
 
 .logoFooter {
@@ -574,6 +572,34 @@ footer {
   font-style: normal;
   font-weight: 400;
   margin-block-start: 8px;
+}
+
+.container__copyright {
+  margin-block-start: 67px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+
+  align-items: center;
+  text-align: left;
+}
+
+.lineCopyright__footer {
+  max-width: 1124px;
+  width: 100%;
+  background-color: #474747;
+  height: 0.7px;
+}
+
+.container__copyright article {
+  font-size: 12px;
+  color: #d9dbe1;
+  margin-block-start: 18px;
+  padding-block-end: 20px;
+  text-align: left;
+  max-width: 1124px;
+  width: 100%;
 }
 /**/
 
