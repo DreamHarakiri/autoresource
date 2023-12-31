@@ -929,4 +929,29 @@ footer {
     align-items: baseline;
     padding-block-start: 17px;
   }
+
+  .activeMenu .navList {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 100px;
+    gap: 10px;
+    max-width: 100vw;
+    width: 100%;
+  }
+
+  .activeMenu .navList li:first-child {
+    margin-inline-start: 22px;
+  }
+
+  .activeMenu .navList li {
+    font-size: 18px;
+  }
+
+  .activeMenu .btnContact__Nav {
+    position: absolute;
+    display: block;
+    top: 250px;
+    margin-inline-start: 22px;
+  }
 }
