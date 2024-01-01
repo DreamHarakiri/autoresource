@@ -792,6 +792,18 @@ footer {
     margin-block-start: 43px;
   }
 
+  .NavSection {
+    position: fixed;
+    top: 0;
+    margin-block-start: 0px;
+    z-index: 999;
+    background-color: white;
+  }
+
+  .bannerSection {
+    margin-block-start: 15px;
+  }
+
   .servicesSection h2 {
     font-size: 24px;
   }
