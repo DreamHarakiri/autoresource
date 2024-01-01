@@ -919,7 +919,7 @@ footer {
     padding-block-start: 50px;
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 30px;
   }
 
   .jobTime {
