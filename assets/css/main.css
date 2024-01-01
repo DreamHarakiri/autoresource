@@ -947,7 +947,7 @@ footer {
     top: 0;
     background-color: white;
     align-items: baseline;
-    transition: height 0.3s 0.3s;
+    transition: 0.3s 0.3s;
     margin-block-start: 0px;
   }
   .activeMenu nav {
